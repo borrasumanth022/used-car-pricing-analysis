@@ -25,9 +25,9 @@ The work follows the **CRISP-DM process**: business understanding, data preparat
 ---
 
 ## Deliverables
-- 📓 [Full Jupyter Notebook with code, models, and dealer-focused recommendations](used_car_pricing_analysis.ipynb)  
-- 📊 Visualizations showing trends in condition, brand, year, mileage, and region.  
-- 📝 Deployment section written in plain English for dealership decision-makers.  
+- [Full Jupyter Notebook with code, models, and dealer-focused recommendations](used_car_pricing_analysis.ipynb)  
+- Visualizations showing trends in condition, brand, year, mileage, and region.  
+- Deployment section written in plain English for dealership decision-makers.  
 
 ---
 
