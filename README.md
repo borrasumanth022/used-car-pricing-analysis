@@ -1,22 +1,37 @@
 # Used Car Pricing Analysis
 
-This project analyzes a Kaggle dataset of used cars to understand what factors drive the resale price of a car.  
-The analysis follows the CRISP-DM process: data preparation, visualization, modeling, and deployment of findings.  
+This project analyzes a Kaggle dataset of used car listings to answer a simple but important question:  
+**What drives the resale price of a car?**
 
-## Key Findings
-- **Condition matters most**: Cars in "fair" condition sell for ~80% less than those in "excellent" condition.  
-- **Year matters**: Each additional year reduces value by about 30% on average.  
-- **Title status**: Salvage titles reduce price by ~40%.  
-- **Brand reputation**: Premium brands (Audi, BMW, Toyota) retain more value; economy brands (Mazda, Chrysler) sell for less.  
-- **Fuel type**: Diesel cars are worth ~10–15% more; hybrids/EVs show strong resale value.  
-- **Location matters**: Cities like Boston, Knoxville, and Grand Rapids command higher resale values.  
-
-## Recommendations for Dealers
-1. **Inventory Strategy**: Prioritize “like new” cars, clean titles, and premium brands.  
-2. **Pricing Strategy**: Set stronger price bands for newer models and diesels; discount aggressively in LA, hold firm in Boston.  
-3. **Operations**: Recondition cars into “excellent” status where possible; expand EV/hybrid inventory.  
-
-## Notebook
-👉 [Click here to view the full Jupyter Notebook](used_car_pricing_analysis.ipynb)
+The work follows the **CRISP-DM process**: business understanding, data preparation, visualization, modeling, and deployment of insights.
 
 ---
+
+## Key Highlights
+- **Condition is king:** cars in *fair* condition sell for ~80% less than *excellent* cars; *like new* vehicles command ~30% more.  
+- **Titles matter:** *salvage* titles reduce value by ~40%.  
+- **Year & mileage:** newer models add ~30% more value; every extra 10k miles cuts price modestly.  
+- **Brand & fuel:** premium brands (Audi, BMW, Silverado) and diesels resell for more; economy brands trail behind.  
+- **Region:** Boston, Knoxville, and Grand Rapids fetch higher resale prices, while LA and South Florida trend lower.  
+
+---
+
+## Recommendations for Dealers
+- **Buy smart:** focus on clean titles, newer models, premium brands, and diesels.  
+- **Be cautious:** only purchase salvage/fair vehicles if the discount covers the value drop.  
+- **Recondition wisely:** upgrading from *good* → *excellent* often pays off.  
+- **Pricing strategy:** start with model predictions, then adjust for condition, title, fuel, and location.  
+
+---
+
+## Deliverables
+- 📓 [Full Jupyter Notebook with code, models, and dealer-focused recommendations](used_car_pricing_analysis.ipynb)  
+- 📊 Visualizations showing trends in condition, brand, year, mileage, and region.  
+- 📝 Deployment section written in plain English for dealership decision-makers.  
+
+---
+
+## Tech Stack
+- Python (pandas, numpy, scikit-learn, matplotlib, seaborn)  
+- Jupyter Notebook  
+- CRISP-DM workflow
